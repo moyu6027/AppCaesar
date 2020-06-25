@@ -1,0 +1,23 @@
+# ninja log v5
+1	385	606116327	CMakeFiles/native-lib.dir/memory_malloc.c.o	6a4a625d58d5b46b
+22	484	606116328	CMakeFiles/native-lib.dir/time_convert.c.o	8aedad16ebdf3af6
+51	671	606116328	CMakeFiles/native-lib.dir/cpu_usage.c.o	dd1422e306cbed37
+672	1041	606116328	D:/download/AppCaesar/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	bd3a26f7bb93276b
+4	314	606119261	CMakeFiles/native-lib.dir/cpu_usage.c.o	dd1422e306cbed37
+314	599	606119262	D:/download/AppCaesar/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	bd3a26f7bb93276b
+0	22	0	clean	f577614f632b300b
+1	23	0	clean	f577614f632b300b
+0	24	0	clean	f577614f632b300b
+0	26	0	clean	f577614f632b300b
+0	25	0	clean	f577614f632b300b
+0	29	0	clean	f577614f632b300b
+4	304	606390146	CMakeFiles/native-lib.dir/memory_malloc.c.o	6a4a625d58d5b46b
+35	315	606390146	CMakeFiles/native-lib.dir/time_convert.c.o	8aedad16ebdf3af6
+18	323	606390146	CMakeFiles/native-lib.dir/cpu_usage.c.o	dd1422e306cbed37
+323	712	606390147	D:/download/AppCaesar/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	bd3a26f7bb93276b
+0	17	0	clean	f577614f632b300b
+1	25	0	clean	f577614f632b300b
+3	240	606803564	CMakeFiles/native-lib.dir/memory_malloc.c.o	6a4a625d58d5b46b
+16	256	606803564	CMakeFiles/native-lib.dir/time_convert.c.o	8aedad16ebdf3af6
+37	271	606803564	CMakeFiles/native-lib.dir/cpu_usage.c.o	dd1422e306cbed37
+272	587	606803564	D:/download/AppCaesar/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	bd3a26f7bb93276b

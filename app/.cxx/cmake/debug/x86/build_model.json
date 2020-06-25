@@ -1,0 +1,204 @@
+{
+  "abi": "X86",
+  "abiPlatformVersion": 23,
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "cmake": {
+    "cmakeArtifactsBaseFolder": "D:\\download\\AppCaesar\\app\\.cxx\\cmake\\debug\\x86",
+    "cmakeServerLogFile": "D:\\download\\AppCaesar\\app\\.cxx\\cmake\\debug\\x86\\cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "D:\\download\\AppCaesar\\app\\.cxx\\cxx\\debug\\x86",
+    "effectiveConfiguration": {
+      "name": "traditional-android-studio-cmake-environment",
+      "description": "Composite reified CMakeSettings configuration",
+      "generator": "Ninja",
+      "inheritEnvironments": [
+        "ndk"
+      ],
+      "buildRoot": "D:\\download\\AppCaesar\\app\\.cxx\\cmake\\debug\\x86",
+      "cmakeToolchain": "C:\\Users\\Sean.Yu\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6210238\\build\\cmake\\android.toolchain.cmake",
+      "cmakeExecutable": "C:\\Users\\Sean.Yu\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+      "variables": [
+        {
+          "name": "CMAKE_FIND_ROOT_PATH",
+          "value": "D:\\download\\AppCaesar\\app\\.cxx\\cmake\\debug\\prefab\\x86\\prefab"
+        },
+        {
+          "name": "CMAKE_BUILD_TYPE",
+          "value": "Debug"
+        },
+        {
+          "name": "CMAKE_TOOLCHAIN_FILE",
+          "value": "C:\\Users\\Sean.Yu\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6210238\\build\\cmake\\android.toolchain.cmake"
+        },
+        {
+          "name": "ANDROID_ABI",
+          "value": "x86"
+        },
+        {
+          "name": "ANDROID_NDK",
+          "value": "C:\\Users\\Sean.Yu\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6210238"
+        },
+        {
+          "name": "ANDROID_PLATFORM",
+          "value": "android-23"
+        },
+        {
+          "name": "CMAKE_ANDROID_ARCH_ABI",
+          "value": "x86"
+        },
+        {
+          "name": "CMAKE_ANDROID_NDK",
+          "value": "C:\\Users\\Sean.Yu\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6210238"
+        },
+        {
+          "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+          "value": "ON"
+        },
+        {
+          "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
+          "value": "D:\\download\\AppCaesar\\app\\build\\intermediates\\cmake\\debug\\obj\\x86"
+        },
+        {
+          "name": "CMAKE_MAKE_PROGRAM",
+          "value": "C:\\Users\\Sean.Yu\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
+        },
+        {
+          "name": "CMAKE_SYSTEM_NAME",
+          "value": "Android"
+        },
+        {
+          "name": "CMAKE_SYSTEM_VERSION",
+          "value": "23"
+        }
+      ]
+    }
+  },
+  "cxxBuildFolder": "D:\\download\\AppCaesar\\app\\.cxx\\cmake\\debug\\x86",
+  "info": {
+    "abi": "X86",
+    "bitness": 32,
+    "deprecated": false,
+    "default": true
+  },
+  "originalCxxBuildFolder": "D:\\download\\AppCaesar\\app\\.cxx\\cmake\\debug\\x86",
+  "variant": {
+    "buildSystemArgumentList": [],
+    "buildTargetSet": [],
+    "cFlagsList": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "cppFlagsList": [],
+    "isDebuggableEnabled": true,
+    "module": {
+      "buildSystem": "CMAKE",
+      "cmake": {
+        "cmakeExe": "C:\\Users\\Sean.Yu\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+        "minimumCmakeVersion": "3.10.2",
+        "ninjaExe": "C:\\Users\\Sean.Yu\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
+      },
+      "cmakeToolchainFile": "C:\\Users\\Sean.Yu\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6210238\\build\\cmake\\android.toolchain.cmake",
+      "cxxFolder": "D:\\download\\AppCaesar\\app\\.cxx",
+      "gradleModulePathName": ":app",
+      "intermediatesFolder": "D:\\download\\AppCaesar\\app\\build\\intermediates",
+      "makeFile": "D:\\download\\AppCaesar\\app\\src\\main\\cpp\\CMakeLists.txt",
+      "moduleBuildFile": "D:\\download\\AppCaesar\\app\\build.gradle",
+      "moduleRootFolder": "D:\\download\\AppCaesar\\app",
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkFolder": "C:\\Users\\Sean.Yu\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6210238",
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 30,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30
+        }
+      },
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkVersion": "21.1.6210238-rc1",
+      "project": {
+        "compilerSettingsCacheFolder": "D:\\download\\AppCaesar\\.cxx",
+        "cxxFolder": "D:\\download\\AppCaesar\\.cxx",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isNativeCompilerSettingsCacheEnabled": false,
+        "rootBuildGradleFolder": "D:\\download\\AppCaesar",
+        "sdkFolder": "C:\\Users\\Sean.Yu\\AppData\\Local\\Android\\Sdk",
+        "isPrefabEnabled": false
+      },
+      "splitsAbiFilterSet": [],
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "C:\\Users\\Sean.Yu\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6210238\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+          "ARM64_V8A": "C:\\Users\\Sean.Yu\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6210238\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+          "X86": "C:\\Users\\Sean.Yu\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6210238\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+          "X86_64": "C:\\Users\\Sean.Yu\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6210238\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      }
+    },
+    "objFolder": "D:\\download\\AppCaesar\\app\\build\\intermediates\\cmake\\debug\\obj",
+    "variantName": "debug",
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "prefabDirectory": "D:\\download\\AppCaesar\\app\\.cxx\\cmake\\debug\\prefab",
+    "prefabPackageDirectoryList": []
+  },
+  "prefabFolder": "D:\\download\\AppCaesar\\app\\.cxx\\cmake\\debug\\prefab\\x86"
+}

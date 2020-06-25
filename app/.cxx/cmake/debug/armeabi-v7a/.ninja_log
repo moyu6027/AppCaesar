@@ -1,0 +1,23 @@
+# ninja log v5
+56	541	606115668	CMakeFiles/native-lib.dir/memory_malloc.c.o	42a0922cfa973536
+1	554	606115668	CMakeFiles/native-lib.dir/time_convert.c.o	610a5a09c1597f57
+25	571	606115668	CMakeFiles/native-lib.dir/cpu_usage.c.o	d658974727f4ed1
+572	1058	606115669	D:/download/AppCaesar/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	350919b3e58db8e
+5	367	606119259	CMakeFiles/native-lib.dir/cpu_usage.c.o	d658974727f4ed1
+367	664	606119260	D:/download/AppCaesar/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	350919b3e58db8e
+1	29	0	clean	f577614f632b300b
+0	25	0	clean	f577614f632b300b
+0	25	0	clean	f577614f632b300b
+0	23	0	clean	f577614f632b300b
+0	23	0	clean	f577614f632b300b
+0	26	0	clean	f577614f632b300b
+4	422	606390144	CMakeFiles/native-lib.dir/time_convert.c.o	610a5a09c1597f57
+34	437	606390144	CMakeFiles/native-lib.dir/memory_malloc.c.o	42a0922cfa973536
+19	455	606390144	CMakeFiles/native-lib.dir/cpu_usage.c.o	d658974727f4ed1
+456	978	606390144	D:/download/AppCaesar/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	350919b3e58db8e
+1	24	0	clean	f577614f632b300b
+0	26	0	clean	f577614f632b300b
+24	572	606803562	CMakeFiles/native-lib.dir/time_convert.c.o	610a5a09c1597f57
+46	575	606803562	CMakeFiles/native-lib.dir/memory_malloc.c.o	42a0922cfa973536
+5	579	606803562	CMakeFiles/native-lib.dir/cpu_usage.c.o	d658974727f4ed1
+579	952	606803562	D:/download/AppCaesar/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	350919b3e58db8e

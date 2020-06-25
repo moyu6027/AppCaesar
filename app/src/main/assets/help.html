@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <title>help</title>
+    <script src="jquery.js"></script>
+    <script>
+    $(document).ready(function () {
+      var arr = new Array();
+      var h1 = $("h1");
+      var check = $("#check");
+      var choose = $("#choose");
+      check.attr("checked", HelpActivity.getAutoRemove());
+      h1.each(function () {
+        var next = $(this).next();
+        arr[$(this).parent().index()] = next.height();
+        next.css("height", "0px");
+      });
+      h1.click(function () {
+        var ul = $(this).next();
+        var img = $(this).children("img");
+        var height = arr[$(this).parent().index()];
+        if (ul.css("height") == "0px") {
+          ul.animate({
+            height: height + "px"
+          }, height);
+          img.css("animation", "hor " + height + "ms " + "linear " + "forwards");
+        } else {
+          ul.animate({
+            height: '0px'
+          }, height);
+          img.css("animation", "ver " + height + "ms " + "linear " + "forwards");
+        }
+      });
+      check.click(function () {
+        if ($(this).is(":checked")) {
+          HelpActivity.setAutoRemove(true);
+        } else {
+          HelpActivity.setAutoRemove(false);
+        }
+      });
+      choose.click(function () {
+        HelpActivity.chooseService();
+      });
+    });
+
+    </script>
+
+    <style>
+    body {
+      background-color: white;
+      margin: 20px 0px 0px 0px;
+      padding: 0px;
+      width: 100%;
+      height: 100%;
+    }
+
+    div h1 {
+      position: relative;
+      background-color: #4CAF50;
+      display: block;
+      border-radius: 10px;
+      color: white;
+      padding: 10px 20px;
+      margin: 5px;
+      font-size: 20px;
+    }
+
+    div ul {
+      list-style-type: none;
+      background-color: white;
+      color: black;
+      padding: 0px 25px;
+      margin: 10px 0px;
+      text-align: justify;
+      font-size: 16px;
+      display: block;
+      height: auto;
+      overflow: hidden;
+    }
+
+    h1 img {
+      position: absolute;
+      right: 20px;
+      top: 15px;
+      width: 20px;
+      height: 20px;
+    }
+
+    ul li {
+      padding: 5px 0px;
+    }
+
+    @keyframes hor {
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(90deg);
+      }
+    }
+
+    @keyframes ver {
+      from {
+        transform: rotate(90deg);
+      }
+
+      to {
+        transform: rotate(0deg);
+      }
+    }
+
+    </style>
+</head>
+
+<body>
+<div>
+    <h1> 一、需要哪些权限 <img src="d.png"/></h1>
+    <ul>
+        <li>无障碍服务权限、外部存储读写权限、悬浮窗权限。</li>
+        <li>为了保证应用能够在后台稳定运行，请允许忽略电池优化策略，并设置为允许该应用后台运行，并把该应用加入如手机管家之类程序的内存优化白名单。</li>
+        <li>
+            国内手机请在最近任务列表中下拉此界面选择锁定此应用，此界面可在退出后自动隐藏，建议尽量避免手动清理。但如果出现耗电量大的情况，可把此界面手动清理掉，但无障碍服务可能会自动关闭，需要重新开启。
+        </li>
+    </ul>
+</div>
+<div>
+    <h1>二、测试相关 <img src="d.png"/></h1>
+    <ul>
+        <li>遍历测试请点击页面中 遍历测试 按钮</li>
+        <li>Monkey测试请点击页面中 Monkey test 按钮</li>
+        <li>需要设置待测App应用的特殊事件。</li>
+        <li>
+           例子如下:
+        </li>
+        <li>
+
+        </li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+<div>
+    <h1>三、更多相关内容 <img src="d.png"/></h1>
+    <ul>
+        <li>
+            某些机型会因为在无障碍服务中申请了模拟点击功能而产生卡顿掉帧的情况。
+        </li>
+        <li>作者 Sean.Yu
+        </li>
+        <li>作者联系方式：Sean Yu(邮箱)</li>
+        <li>HCC IT2IT Quality Control Team</li>
+        <li>LJZ 806</li>
+    </ul>
+</div>
+</body>

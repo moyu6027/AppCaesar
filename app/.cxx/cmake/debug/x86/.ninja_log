@@ -1,0 +1,5 @@
+# ninja log v5
+0	305	607344172	CMakeFiles/native-lib.dir/memory_malloc.c.o	f9b46392893f21e8
+37	326	607344172	CMakeFiles/native-lib.dir/time_convert.c.o	e4f23a52646b3177
+17	334	607344172	CMakeFiles/native-lib.dir/cpu_usage.c.o	40c1c9643de15078
+334	525	607344172	D:/download/AppCaesar/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	af4ce2d25de70bb7

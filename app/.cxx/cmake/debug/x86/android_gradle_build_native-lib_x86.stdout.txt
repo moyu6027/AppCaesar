@@ -1,0 +1,5 @@
+ninja: Entering directory `D:\download\AppCaesar\app\.cxx\cmake\debug\x86'
+[1/4] Building C object CMakeFiles/native-lib.dir/memory_malloc.c.o
+[2/4] Building C object CMakeFiles/native-lib.dir/time_convert.c.o
+[3/4] Building C object CMakeFiles/native-lib.dir/cpu_usage.c.o
+[4/4] Linking C shared library D:\download\AppCaesar\app\build\intermediates\cmake\debug\obj\x86\libnative-lib.so

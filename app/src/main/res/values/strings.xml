@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name"><font color="#ff000000">AppCaesar</font></string>
+    <string name="accessibility_introduction">开启辅助功能后，自动帮你完成一系列重复操作</string>
+    <string name="simple_name"><font color="#ff000000">AppCaesar</font></string>
+    <string name="cpu_chart">CPU Chart</string>
+    <string name="mem_chart">Memory Chart</string>
+    <string name="response_chart">Response Chart</string>
+</resources>
